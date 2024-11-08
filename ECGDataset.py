@@ -38,14 +38,3 @@ class ECGDataset(Dataset):
 
     def __len__(self):
         return self.len
-    
-# train_dataset = torch.load("./data/mit/train.pt")
-# val_dataset = torch.load("./data/mit/val.pt")
-# test_dataset = torch.load("./data/mit/test.pt")
-
-# train_dataset = ECGDataset(train_dataset)
-# val_dataset = ECGDataset(val_dataset)
-# test_dataset = ECGDataset(test_dataset)
-
-# sample = train_dataset[0]
-# print(sample)
